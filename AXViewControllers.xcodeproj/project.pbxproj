@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BC48354D585437994F93D86 /* libPods-AXViewControllers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E36DA86A128DF2BBC0C12D49 /* libPods-AXViewControllers.a */; };
 		DCE18B211D8799A1002A9173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B201D8799A1002A9173 /* main.m */; };
 		DCE18B241D8799A1002A9173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B231D8799A1002A9173 /* AppDelegate.m */; };
 		DCE18B271D8799A1002A9173 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B261D8799A1002A9173 /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		DCE18B2F1D8799A1002A9173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE18B2D1D8799A1002A9173 /* LaunchScreen.storyboard */; };
 		DCE18B3A1D8799A1002A9173 /* AXViewControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B391D8799A1002A9173 /* AXViewControllersTests.m */; };
 		DCE18B451D8799A1002A9173 /* AXViewControllersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B441D8799A1002A9173 /* AXViewControllersUITests.m */; };
+		DCE18B551D87A1A3002A9173 /* AXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B541D87A1A3002A9173 /* AXViewController.m */; };
+		DCE18B5B1D87A6D3002A9173 /* AXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B5A1D87A6D3002A9173 /* AXTableViewController.m */; };
+		DCE18B601D87AAE2002A9173 /* AXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B5F1D87AAE2002A9173 /* AXTabBarController.m */; };
+		DCE18B631D87D197002A9173 /* AXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B621D87D197002A9173 /* AXNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		153ACE463F3DD04333D970B3 /* Pods-AXViewControllers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXViewControllers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXViewControllers/Pods-AXViewControllers.debug.xcconfig"; sourceTree = "<group>"; };
+		48EDFC59A1BECABFF7EBFF5A /* Pods-AXViewControllers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXViewControllers.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXViewControllers/Pods-AXViewControllers.release.xcconfig"; sourceTree = "<group>"; };
 		DCE18B1C1D8799A1002A9173 /* AXViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE18B201D8799A1002A9173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCE18B221D8799A1002A9173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,17 @@
 		DCE18B401D8799A1002A9173 /* AXViewControllersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXViewControllersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE18B441D8799A1002A9173 /* AXViewControllersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXViewControllersUITests.m; sourceTree = "<group>"; };
 		DCE18B461D8799A1002A9173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE18B531D87A1A3002A9173 /* AXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXViewController.h; sourceTree = "<group>"; };
+		DCE18B541D87A1A3002A9173 /* AXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXViewController.m; sourceTree = "<group>"; };
+		DCE18B561D87A1C0002A9173 /* AXViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXViewControllerDelegate.h; sourceTree = "<group>"; };
+		DCE18B591D87A6D3002A9173 /* AXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXTableViewController.h; sourceTree = "<group>"; };
+		DCE18B5A1D87A6D3002A9173 /* AXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXTableViewController.m; sourceTree = "<group>"; };
+		DCE18B5D1D87AA25002A9173 /* AXViewControllersContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXViewControllersContants.h; sourceTree = "<group>"; };
+		DCE18B5E1D87AAE2002A9173 /* AXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXTabBarController.h; sourceTree = "<group>"; };
+		DCE18B5F1D87AAE2002A9173 /* AXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXTabBarController.m; sourceTree = "<group>"; };
+		DCE18B611D87D197002A9173 /* AXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXNavigationController.h; sourceTree = "<group>"; };
+		DCE18B621D87D197002A9173 /* AXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXNavigationController.m; sourceTree = "<group>"; };
+		E36DA86A128DF2BBC0C12D49 /* libPods-AXViewControllers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AXViewControllers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC48354D585437994F93D86 /* libPods-AXViewControllers.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1827A41CEA020A3F0847CF5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				153ACE463F3DD04333D970B3 /* Pods-AXViewControllers.debug.xcconfig */,
+				48EDFC59A1BECABFF7EBFF5A /* Pods-AXViewControllers.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A932A8DD2B21C1C8C33D3DDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E36DA86A128DF2BBC0C12D49 /* libPods-AXViewControllers.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DCE18B131D8799A1002A9173 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +121,8 @@
 				DCE18B381D8799A1002A9173 /* AXViewControllersTests */,
 				DCE18B431D8799A1002A9173 /* AXViewControllersUITests */,
 				DCE18B1D1D8799A1002A9173 /* Products */,
+				1827A41CEA020A3F0847CF5D /* Pods */,
+				A932A8DD2B21C1C8C33D3DDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +143,7 @@
 				DCE18B231D8799A1002A9173 /* AppDelegate.m */,
 				DCE18B251D8799A1002A9173 /* ViewController.h */,
 				DCE18B261D8799A1002A9173 /* ViewController.m */,
+				DCE18B521D8799E9002A9173 /* ViewControllers */,
 				DCE18B281D8799A1002A9173 /* Main.storyboard */,
 				DCE18B2B1D8799A1002A9173 /* Assets.xcassets */,
 				DCE18B2D1D8799A1002A9173 /* LaunchScreen.storyboard */,
@@ -140,6 +179,23 @@
 			path = AXViewControllersUITests;
 			sourceTree = "<group>";
 		};
+		DCE18B521D8799E9002A9173 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCE18B561D87A1C0002A9173 /* AXViewControllerDelegate.h */,
+				DCE18B5D1D87AA25002A9173 /* AXViewControllersContants.h */,
+				DCE18B531D87A1A3002A9173 /* AXViewController.h */,
+				DCE18B541D87A1A3002A9173 /* AXViewController.m */,
+				DCE18B5E1D87AAE2002A9173 /* AXTabBarController.h */,
+				DCE18B5F1D87AAE2002A9173 /* AXTabBarController.m */,
+				DCE18B591D87A6D3002A9173 /* AXTableViewController.h */,
+				DCE18B5A1D87A6D3002A9173 /* AXTableViewController.m */,
+				DCE18B611D87D197002A9173 /* AXNavigationController.h */,
+				DCE18B621D87D197002A9173 /* AXNavigationController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCE18B491D8799A1002A9173 /* Build configuration list for PBXNativeTarget "AXViewControllers" */;
 			buildPhases = (
+				A374F51C605351D8B7B8EB0C /* [CP] Check Pods Manifest.lock */,
 				DCE18B181D8799A1002A9173 /* Sources */,
 				DCE18B191D8799A1002A9173 /* Frameworks */,
 				DCE18B1A1D8799A1002A9173 /* Resources */,
+				8B7312AC1341EC9089FC924C /* [CP] Embed Pods Frameworks */,
+				C8E635142EE1AB31C17EFA71 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +266,7 @@
 				TargetAttributes = {
 					DCE18B1B1D8799A1002A9173 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TKA48YVS5T;
 						ProvisioningStyle = Automatic;
 					};
 					DCE18B341D8799A1002A9173 = {
@@ -268,14 +328,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B7312AC1341EC9089FC924C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXViewControllers/Pods-AXViewControllers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A374F51C605351D8B7B8EB0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E635142EE1AB31C17EFA71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXViewControllers/Pods-AXViewControllers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCE18B181D8799A1002A9173 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DCE18B271D8799A1002A9173 /* ViewController.m in Sources */,
+				DCE18B551D87A1A3002A9173 /* AXViewController.m in Sources */,
+				DCE18B5B1D87A6D3002A9173 /* AXTableViewController.m in Sources */,
 				DCE18B241D8799A1002A9173 /* AppDelegate.m in Sources */,
+				DCE18B601D87AAE2002A9173 /* AXTabBarController.m in Sources */,
 				DCE18B211D8799A1002A9173 /* main.m in Sources */,
+				DCE18B631D87D197002A9173 /* AXNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +534,12 @@
 		};
 		DCE18B4A1D8799A1002A9173 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153ACE463F3DD04333D970B3 /* Pods-AXViewControllers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKA48YVS5T;
 				INFOPLIST_FILE = AXViewControllers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devedbox.AXViewControllers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,9 +548,12 @@
 		};
 		DCE18B4B1D8799A1002A9173 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EDFC59A1BECABFF7EBFF5A /* Pods-AXViewControllers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKA48YVS5T;
 				INFOPLIST_FILE = AXViewControllers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devedbox.AXViewControllers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +625,7 @@
 				DCE18B4B1D8799A1002A9173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCE18B4C1D8799A1002A9173 /* Build configuration list for PBXNativeTarget "AXViewControllersTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +634,7 @@
 				DCE18B4E1D8799A1002A9173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCE18B4F1D8799A1002A9173 /* Build configuration list for PBXNativeTarget "AXViewControllersUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +643,7 @@
 				DCE18B511D8799A1002A9173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

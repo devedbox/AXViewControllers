@@ -1,0 +1,18 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - IQKeyboardManager (4.0.5)
+  - MJRefresh (3.1.12)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture
+  - IQKeyboardManager
+  - MJRefresh
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  IQKeyboardManager: 50b62c0603308968256f8208886e206c1dcce607
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+
+PODFILE CHECKSUM: aab9a547b43af6c3b0c265126c0f25be0f2cb98c
+
+COCOAPODS: 1.1.0.beta.2
