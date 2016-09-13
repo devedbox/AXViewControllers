@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
 
   s.source       = { :git => 'https://github.com/devedbox/AXViewControllers.git', :tag => '0.0.1' }
-  s.source_files  = 'AXViewControllers/AXViewControllers/*.{h,m}'
+  s.source_files  = 'AXViewControllers/ViewControllers/*.{h,m}'
 
   s.frameworks = 'UIKit', 'Foundation'
 
