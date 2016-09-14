@@ -65,6 +65,13 @@
      */
     [self setNeedsRefreshUpdates];
     [self setNeedsLoadModeUpdates];
+    
+    if ([self shouldAddTransionBackgroundView]) {
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.navigationController.navigationBar.frame), CGRectGetMaxY(self.navigationController.navigationBar.frame))];
+        view.backgroundColor = [self backgroundColorForTransionView];
+        [self.tableView addSubview:view];
+        _transionView = view;
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated {

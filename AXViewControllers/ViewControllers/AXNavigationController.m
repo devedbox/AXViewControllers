@@ -18,7 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     // Set up keyboard manager.
+    /*
     [[[IQKeyboardManager sharedManager] disabledDistanceHandlingClasses] addObject:self.class];
+     */
 }
 
 - (void)didReceiveMemoryWarning {
