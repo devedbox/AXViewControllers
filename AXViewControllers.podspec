@@ -23,4 +23,5 @@ Pod::Spec.new do |s|
   s.dependency 'FDFullscreenPopGesture'
   s.dependency 'IQKeyboardManager'
   s.dependency 'MJRefresh'
+  s.dependency 'pop'
 end

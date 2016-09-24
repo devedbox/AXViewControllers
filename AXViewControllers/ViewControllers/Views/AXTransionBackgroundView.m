@@ -70,6 +70,7 @@
         }
     };
     alpha.duration = duration;
+    alpha.toValue = @(separatorHidden?0:1);
     [_separatorView pop_removeAnimationForKey:@"alpha"];
     [_separatorView pop_addAnimation:alpha forKey:@"alpha"];
 }
