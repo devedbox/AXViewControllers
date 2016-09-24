@@ -63,6 +63,14 @@
     /*
     [self.navigationItem.rightBarButtonItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:0.996 green:0.149 blue:0.255 alpha:1.00],NSForegroundColorAttributeName, [UIFont systemFontOfSize:14],NSFontAttributeName , nil] forState:0];
      */
+    
+    if ([self shouldAddTransionBackgroundView]) {
+        self.transionView.frame = CGRectMake(0, 0, CGRectGetWidth(self.navigationController.navigationBar.frame), CGRectGetMaxY(self.navigationController.navigationBar.frame));
+        self.transionView.backgroundColor = [self backgroundColorForTransionView];
+        [self.view addSubview:self.transionView];
+    } else {
+        [self.transionView removeFromSuperview];
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated {

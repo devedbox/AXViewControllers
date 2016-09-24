@@ -6,4 +6,5 @@ target 'AXViewControllers' do
     pod 'FDFullscreenPopGesture'
     pod 'IQKeyboardManager'
     pod 'MJRefresh'
+    pod 'pop'
 end

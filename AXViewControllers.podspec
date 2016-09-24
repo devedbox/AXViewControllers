@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'AXViewControllers'
-  s.version      = '0.0.3'
+  s.version      = '0.0.4'
   s.summary      = 'A basic view controler manager kits.'
   s.description  = <<-DESC
                     A basic view controler manager using on iOS platform.
@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.author             = { 'aiXing' => '862099730@qq.com' }
   s.platform     = :ios, '7.0'
 
-  s.source       = { :git => 'https://github.com/devedbox/AXViewControllers.git', :tag => '0.0.3' }
-  s.source_files  = 'AXViewControllers/ViewControllers/*.{h,m}'
+  s.source       = { :git => 'https://github.com/devedbox/AXViewControllers.git', :tag => '0.0.4' }
+  s.source_files  = 'AXViewControllers/ViewControllers/*.{h,m}', 'AXViewControllers/ViewControllers/Views/*.{h,m}'
 
   s.frameworks = 'UIKit', 'Foundation'
 

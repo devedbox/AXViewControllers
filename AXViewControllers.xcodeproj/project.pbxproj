@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2BC48354D585437994F93D86 /* libPods-AXViewControllers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E36DA86A128DF2BBC0C12D49 /* libPods-AXViewControllers.a */; };
+		DC7BEAD31D96632200E46804 /* AXTransionBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7BEAD21D96632200E46804 /* AXTransionBackgroundView.m */; };
+		DC7BEAD61D966AE700E46804 /* UIViewController+TransionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7BEAD51D966AE700E46804 /* UIViewController+TransionView.m */; };
 		DCE18B211D8799A1002A9173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B201D8799A1002A9173 /* main.m */; };
 		DCE18B241D8799A1002A9173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B231D8799A1002A9173 /* AppDelegate.m */; };
 		DCE18B271D8799A1002A9173 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE18B261D8799A1002A9173 /* ViewController.m */; };
@@ -42,6 +44,10 @@
 /* Begin PBXFileReference section */
 		153ACE463F3DD04333D970B3 /* Pods-AXViewControllers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXViewControllers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXViewControllers/Pods-AXViewControllers.debug.xcconfig"; sourceTree = "<group>"; };
 		48EDFC59A1BECABFF7EBFF5A /* Pods-AXViewControllers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXViewControllers.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXViewControllers/Pods-AXViewControllers.release.xcconfig"; sourceTree = "<group>"; };
+		DC7BEAD11D96632200E46804 /* AXTransionBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXTransionBackgroundView.h; sourceTree = "<group>"; };
+		DC7BEAD21D96632200E46804 /* AXTransionBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXTransionBackgroundView.m; sourceTree = "<group>"; };
+		DC7BEAD41D966AE700E46804 /* UIViewController+TransionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TransionView.h"; sourceTree = "<group>"; };
+		DC7BEAD51D966AE700E46804 /* UIViewController+TransionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TransionView.m"; sourceTree = "<group>"; };
 		DCE18B1C1D8799A1002A9173 /* AXViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE18B201D8799A1002A9173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCE18B221D8799A1002A9173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +118,15 @@
 				E36DA86A128DF2BBC0C12D49 /* libPods-AXViewControllers.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC7BEAD01D9662FF00E46804 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC7BEAD11D96632200E46804 /* AXTransionBackgroundView.h */,
+				DC7BEAD21D96632200E46804 /* AXTransionBackgroundView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		DCE18B131D8799A1002A9173 = {
@@ -192,6 +207,9 @@
 				DCE18B5A1D87A6D3002A9173 /* AXTableViewController.m */,
 				DCE18B611D87D197002A9173 /* AXNavigationController.h */,
 				DCE18B621D87D197002A9173 /* AXNavigationController.m */,
+				DC7BEAD41D966AE700E46804 /* UIViewController+TransionView.h */,
+				DC7BEAD51D966AE700E46804 /* UIViewController+TransionView.m */,
+				DC7BEAD01D9662FF00E46804 /* Views */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -387,7 +405,9 @@
 				DCE18B241D8799A1002A9173 /* AppDelegate.m in Sources */,
 				DCE18B601D87AAE2002A9173 /* AXTabBarController.m in Sources */,
 				DCE18B211D8799A1002A9173 /* main.m in Sources */,
+				DC7BEAD61D966AE700E46804 /* UIViewController+TransionView.m in Sources */,
 				DCE18B631D87D197002A9173 /* AXNavigationController.m in Sources */,
+				DC7BEAD31D96632200E46804 /* AXTransionBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

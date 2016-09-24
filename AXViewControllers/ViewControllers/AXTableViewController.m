@@ -31,8 +31,6 @@
     BOOL _footerLimitedByContentSize;
     NSDate *_lastRefreshDate;
 }
-/// Transion background view.
-@property(weak, nonatomic) UIView *transionView;
 @end
 
 @implementation AXTableViewController
@@ -67,13 +65,11 @@
     [self setNeedsLoadModeUpdates];
     
     if ([self shouldAddTransionBackgroundView]) {
-        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.navigationController.navigationBar.frame), CGRectGetMaxY(self.navigationController.navigationBar.frame))];
-        view.backgroundColor = [self backgroundColorForTransionView];
-        UIView *separator = [[UIView alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(view.frame)-0.5, CGRectGetWidth(view.frame), 0.5)];
-        separator.backgroundColor = [UIColor lightGrayColor];
-        [view addSubview:separator];
-        [self.tableView addSubview:view];
-        _transionView = view;
+        self.transionView.frame = CGRectMake(0, 0, CGRectGetWidth(self.navigationController.navigationBar.frame), CGRectGetMaxY(self.navigationController.navigationBar.frame));
+        self.transionView.backgroundColor = [self backgroundColorForTransionView];
+        [self.view addSubview:self.transionView];
+    } else {
+        [self.transionView removeFromSuperview];
     }
 }
 
@@ -260,7 +256,7 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    _transionView.transform = CGAffineTransformMakeTranslation(0, scrollView.contentOffset.y);
+    self.transionView.transform = CGAffineTransformMakeTranslation(0, scrollView.contentOffset.y);
 }
 
 #pragma mark - Transion view

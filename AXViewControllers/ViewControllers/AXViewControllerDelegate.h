@@ -27,6 +27,7 @@
 #import <Foundation/Foundation.h>
 #import <MJRefresh/MJRefresh.h>
 #import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+#import "UIViewController+TransionView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @protocol AXViewControllerDelegate <NSObject>
