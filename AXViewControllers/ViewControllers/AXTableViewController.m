@@ -69,6 +69,9 @@
     if ([self shouldAddTransionBackgroundView]) {
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.navigationController.navigationBar.frame), CGRectGetMaxY(self.navigationController.navigationBar.frame))];
         view.backgroundColor = [self backgroundColorForTransionView];
+        UIView *separator = [[UIView alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(view.frame)-0.5, CGRectGetWidth(view.frame), 0.5)];
+        separator.backgroundColor = [UIColor lightGrayColor];
+        [view addSubview:separator];
         [self.tableView addSubview:view];
         _transionView = view;
     }
